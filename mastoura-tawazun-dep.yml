@@ -8,7 +8,7 @@ metadata:
     service: tawazun-svc
     name: Mastoura
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: tawazun
@@ -20,7 +20,7 @@ spec:
         service: tawazun-svc
     spec:
       containers:
-        - image: mshaikh911/tawazun
+        - image: mastoura/tawazun-sda-hackathon1
           name: tawazun
           resources: 
             requests: 
