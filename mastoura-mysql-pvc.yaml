@@ -7,7 +7,6 @@ metadata:
     app: sql
     name: Mastoura
 spec:
-  #storageClassName: local-path
   accessModes:
   - ReadWriteOnce
   resources:
