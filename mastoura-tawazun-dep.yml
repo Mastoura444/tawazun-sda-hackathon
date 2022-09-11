@@ -20,7 +20,7 @@ spec:
         service: tawazun-svc
     spec:
       containers:
-        - image: mastoura/tawazun-sda-hackathon1
+        - image: mshaikh911/tawazun
           name: tawazun
           resources: 
             requests: 
