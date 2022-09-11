@@ -8,7 +8,6 @@ metadata:
     app: sql
     name: Mastoura
 spec:
-  #storageClassName: local-path
   capacity:
     storage: 5Gi
   accessModes:
